@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProjetoMaster.detalhes">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="{Binding descricao}"/>
+            <Label Text="{Binding valor}"/>
+            <Image  Source="{Binding img}"
+                    AbsoluteLayout.LayoutBounds="0.8,1,50,50"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
